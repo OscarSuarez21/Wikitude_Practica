@@ -17,16 +17,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/Conexion">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="VIRTUAL REALITY"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginRight="10dp" />
-
 
         <LinearLayout
             android:orientation="horizontal"
@@ -37,29 +27,21 @@
 
 
             <Button
-                android:id="@+id/Camara"
+                android:id="@+id/btnCamara"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:text="Camara" />
 
-            <Button
-                android:id="@+id/info"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:text="Información" />
-
 
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/imageLoked"
+            android:id="@+id/imageView"
             android:layout_width="300dp"
             android:layout_height="300dp"
-            android:layout_gravity="center"
-            android:src="@drawable/img"/>
+            android:layout_gravity="center" />
 
 
     </LinearLayout>
